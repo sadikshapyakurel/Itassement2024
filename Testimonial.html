@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Testimonials</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #1a1a2e;
+      color: white;
+      margin: 0;
+      padding: 0;
+    }
+
+    .testimonial-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 20px;
+      background: url('background.jpg') no-repeat center center/cover;
+      position: relative;
+      flex-wrap: wrap; /* This allows the testimonials to wrap onto the next line when necessary */
+    }
+
+    .testimonial-box {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 300px;
+      text-align: center;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+      margin: 15px;
+    }
+
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #f7941e;
+      margin-bottom: 15px;
+    }
+
+    .name {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #f7941e;
+    }
+
+    .title {
+      font-size: 1rem;
+      margin-bottom: 15px;
+      color: #ddd;
+    }
+
+    .message {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="testimonial-container">
+    <!-- Testimonial 1 -->
+    <div class="testimonial-box">
+      <img src="Anjali.jpg" alt="Anjali Pyakurel" class="profile-img" />
+      <div class="name">Anjali Pyakurel</div>
+      <div class="title">Feedback From Customer</div>
+      <div class="message">
+        "Sadiksha General Store is a great shop! I’m really impressed with the quality of the bag I bought. The service is fast, and the staff is friendly. I highly recommend everyone to visit and check out their collection!".
+      </div>
+    </div>
+
+    <!-- Testimonial 2 -->
+    <div class="testimonial-box">
+      <img src="sneha.jpg" alt="Sneha subedi" class="profile-img" />
+      <div class="name">Sneha subedi</div>
+      <div class="title">Feedback From Customer</div>
+      <div class="message">
+        "The clothes from Sadiksha General Store are really good. They are even better than I thought. I really liked them. Great prices and nice designs. I’ll definitely order more. I recommend this store to everyone!"
+      </div>
+    </div>
+
+    <!-- Testimonial 3 -->
+    <div class="testimonial-box">
+      <img src="priya.jpg" alt="Priya chudal" class="profile-img" />
+      <div class="name">Priya chudal</div>
+      <div class="title"> Feedback From Customer</div>
+      <div class="message">
+        "I had a great experience buying shoes from Sadiksha General Store. The quality of the shoes is good, they're comfortable, and the size was accurate. The delivery was on time, and the packaging was safe. Customer service was also helpful with fast responses. Overall, a great shopping experience! Keep it up!"
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
